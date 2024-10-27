@@ -1,0 +1,10 @@
+exactamente lo mismo que antes:
+se usa en la terminal el comando:
+docker run --rm -v "$(pwd):/data" "phpdoc/phpdoc:3"
+crea una carpeta llamada phpdoc que contiene la documentacion y genera una pagina con su html y css que muestra esta documentacion
+pero esta vez voy a poner manualmente que los datos son enteros y que el return devuelve un entero
+lamentablemente no puede documentar lo que hace la funcion he probado a ponerle nombre en ingles y sigue saliendo
+Undocumented function
+pero esta prueba simplemente sera para mostrar como hacerlo manualmente con una extension que nos ayuda a generarlo llamada
+php docblocker alt+. nos generara una documentacion detallada de lo que entra a la funcion de lo que devuelve y 
+que es lo que hace esta misma funcion

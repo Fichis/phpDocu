@@ -1,0 +1,3 @@
+se usa en la terminal el comando:
+docker run --rm -v "$(pwd):/data" "phpdoc/phpdoc:3"
+crea una carpeta llamada phpdoc que contiene la documentacion y genera una pagina con su html y css que muestra esta documentacion
